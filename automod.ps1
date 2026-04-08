@@ -85,6 +85,6 @@ if (Test-Path $path_cui) {
     Replace-InFile $path_cui 'HKR,,"ShowVirtualKeyBoard",%REG_DWORD%,1' 'HKR,,"ShowVirtualKeyBoard",%REG_DWORD%,0'
 }
 
-Write-Host "`nÂ¡MODIFICACIÃ“N AGRESIVA COMPLETADA!" -ForegroundColor Green
+Write-Host "¡MODIFICACIÃN AGRESIVA COMPLETADA!" -ForegroundColor Green
 Write-Host "Recuerda: Instala desde el Administrador de Dispositivos tras deshabilitar la firma de controladores." -ForegroundColor Red
 pause
